@@ -1,0 +1,160 @@
+header {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  border-radius:10px 10px 10px 10px ; ;
+}
+
+.titulo{
+  color: #ff0000;
+  font-family: 'Lalezar', cursive;
+ 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:  #ff0000;
+}
+
+
+p{
+  display: flex;
+  margin-left:150px ;
+}
+
+
+/*esto es para las fotos del menu*/
+.fotos{
+ display: flex;
+margin-left:100px ;
+text-align: end;
+
+
+}
+/*esto es para el espacio de las fotos*/
+.espacio{
+padding: 1px; 
+width: 350px;
+border-radius:10px 10px 10px 10px ;
+}
+
+
+/*esta parte es para el footer*/
+.foter{
+  background-color: #000000;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.letrafoter{
+  color:#ff0000;
+  margin-left: 515px;
+}
+.titulofoter{
+  color:#ff0000;
+  font-family: 'Lalezar', cursive;
+  margin-left: 550px;
+}
+
+.iconos{
+  padding: 20px;
+  color :#ff0000;
+  text-decoration: none;
+
+  
+}
+
+
+
+/*esto son para las imagenes*/
+.img1{
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+.img2{
+  width: 300px;
+  height: 255px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px  #ff0000;
+}
+
+.img3{
+  width: 255px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #ff0000;  
+}
+.imgprote{
+ width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #ff0000;  
+}
+.imgpre{
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #ff0000;  
+
+}
+.imgpre2{
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #ff0000;  
+
+}
+
+.imgpierna{
+ width: 280px;
+ height: 250px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px  #ff0000;  
+}
+.imgpecho{
+  width: 280px;
+  height: 250px;
+   border-radius: 25px;
+   box-shadow: 0 0 10px #ff0000;  
+}
+.imgespalda{
+  width: 280px;
+  height: 250px;
+   border-radius: 25px;
+   box-shadow:  0 0 10px #ff0000; 
+
+}
+
+
+/*esto sirve para dar espacio a la pagina*/
+.main{
+  height: 60px;
+}
+
+.suplemen{
+  text-align: center;
+  color: #ff0000;
+  font-family: 'Lalezar', cursive;
+}
+.ruti{
+  text-align: center;
+  color: #ff0000;
+  font-family: 'Lalezar', cursive;
+
+}
+
+.titulosuple{
+  color:#ff0000;
+}
+

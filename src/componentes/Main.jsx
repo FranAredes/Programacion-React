@@ -15,6 +15,11 @@ import biceps from '../assets/img/biceps.jpg'
 import triceps from '../assets/img/triceps.jpg'
 import hombro from '../assets/img/hombro.jpg'
 
+import GymInscriptionForm from './GymInscriptionForm'
+
+
+import {Link} from 'react-scroll'
+
 
 
 
@@ -27,9 +32,11 @@ function Main() {
       <header>
     <h1 className='titulo'>GYM CENTER</h1>
     <nav>
-      <ul>
-        <li id="#"><a href="Inicio">Inicio</a></li>
-      </ul>
+    <div className='links'>
+       <a href="#">INICIO</a>
+       <Link to='suplemen' spy={true} smooth={true} offset={50} duration={500}>SUPLEMENTOS</Link>
+       <Link to='ruti' spy={true} smooth={true} offset={50} duration={500}>RUTINAS</Link>
+    </div>
     </nav>
      
     </header> 
@@ -273,10 +280,10 @@ function Main() {
 
     <div className='main'></div>
 
-
-
-
-
+   <div className='Formulario'>
+   <GymInscriptionForm></GymInscriptionForm>
+   </div>
+   
 
 
 	<footer>

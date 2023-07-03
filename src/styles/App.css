@@ -4,6 +4,11 @@ header {
   text-align: center;
   border-radius:10px 10px 10px 10px ; ;
 }
+body{
+  background-color: #00000028;
+}
+
+
 
 .titulo{
   color: #ff0000;
@@ -135,6 +140,12 @@ border-radius:10px 10px 10px 10px ;
    box-shadow:  0 0 10px #ff0000; 
 
 }
+img:hover{
+  transform: scale(1.1);
+  transition :transform 0.1s ease-in-out;
+}
+
+
 
 
 /*esto sirve para dar espacio a la pagina*/
@@ -157,4 +168,28 @@ border-radius:10px 10px 10px 10px ;
 .titulosuple{
   color:#ff0000;
 }
+
+.links{
+  margin-left: 5%;
+
+}
+
+
+.links a{
+  text-decoration: none;
+  color: red;
+  margin-right: 5%;
+}
+
+/*ESTO ES PARA EL FORMULARIO*/
+
+.FormularioTitulo{
+  color: #ff0000;
+  text-align: center;
+}
+
+.PartesdeForm{
+  text-align: center;
+}
+
 
